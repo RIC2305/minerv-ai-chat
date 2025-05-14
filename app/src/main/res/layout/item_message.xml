@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Contenedor para el mensaje del bot (IA) alineado a la izquierda -->
+    <LinearLayout
+        android:id="@+id/leftChat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="start"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/leftText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mensaje enviado por el bot"
+            android:background="@drawable/chat_left_bg"
+            android:padding="12dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Espacio vacío para separar mensajes -->
+    <View
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"/>
+
+    <!-- Contenedor para el mensaje del usuario alineado a la derecha -->
+    <LinearLayout
+        android:id="@+id/rightChat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="end"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/rightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mensaje enviado por el usuario"
+            android:background="@drawable/chat_right_bg"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>

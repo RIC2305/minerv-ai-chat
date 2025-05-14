@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo verde para el mensaje del usuario -->
+    <solid android:color="@color/gray_chat"/> <!-- Color de fondo verde -->
+
+    <!-- Bordes redondeados para dar la forma de burbuja -->
+    <corners android:radius="16dp"/> <!-- Radio de esquina de 16dp para bordes redondeados -->
+
+    <!-- Espaciado interno dentro de la burbuja -->
+    <padding android:left="12dp" android:right="12dp" android:top="8dp" android:bottom="8dp"/> <!-- Relleno interno -->
+</shape>

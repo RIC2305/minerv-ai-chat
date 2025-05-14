@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Minerv_IA</string>
+    <string name="texto_saludo">MinerviaAPP</string>
+    <string name="logo_aplicacion">Logo Aplicacion</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="textoemail">Email</string>
+    <string name="textocontraseña">Password</string>
+    <string name="textobotonregistrar">REGISTRAR</string>
+    <string name="textobotonacceder">ACCEDER</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="seleccion_ia_tipo_profesional_medico">Soy Alberto, tu médico de familia. Hablemos sobre cuestiones médicas</string>
+    <string name="seleccion_ia_tipo_profesional_abogado">Soy Marina, tu abogada. Hablemos sobre tus dudas legales</string>
+    <string name="seleccion_ia_tipo_profesional_mecanico">Soy Juan, tu mecánico. Algún problema con tu vehículo?</string>
+    <string name="seleccion_ia_tipo_amigo">Soy Pedro, tu amigo. Cuéntame cómo te ha ido</string>
+    <string name="seleccion_ia_tipo_automatizacion">Soy tu IA para automatizaciones </string>
+    <string name="cerrar_sesion">CERRAR SESION</string>
+    <string name="segunda_acci_n">Segunda acción</string>
+    <string name="tercera_acci_n">Tercera acción</string>
+    <string name="ir_a_formulario">Ir a formulario</string>
+    <string name="seleccionar_tipo">Seleccionar tipo</string>
+    <string name="flecha_izquierda">flecha izquierda</string>
+    <string name="flecha_derecha">flecha derecha</string>
+    <string name="title_activity_config">ConfigActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">Lorem ipsum…</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="nombre_usuario">Nombre Usuario</string>
+    <string name="sexo">Sexo</string>
+    <string name="edad">Edad</string>
+    <string name="datos_usuario">DATOS USUARIO</string>
+    <string name="datos_ia_amiga">DATOS IA AMIGA</string>
+    <string name="edad_ia">Edad</string>
+    <string name="estilo_IA">Estilo</string>
+    <string name="personalidad_ia_hint">Cuéntanos sobre la personalidad de la IA. Por ejemplo: \'Es amigable, ingeniosa y siempre tiene una respuesta para todo.\'</string>
+    <string name="nombre_ia">Nombre IA</string>
+    <string name="texto_ejemplo_descripcion_usuario">Cuéntanos algo sobre ti: tus aficiones, si estudias, trabajas, o algo que te apasione. Por ejemplo: \'Me gusta la lectura y estoy aprendiendo fotografía.\'</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="salir">SALIR</string>
+    <string name="ayuda">ayuda</string>
+    <string name="enviar">Enviar</string>
+    <string name="escribe_un_mensaje">Escribe un mensaje...</string>
+    <string name="asistente">Asistente</string>
+    <string name="back_button">Boton volver atras</string>
+    <string name="google_sign_in">google sign In</string>
+    <string name="google">GOOGLE</string>
+
+</resources>

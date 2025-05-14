@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/usuarioTextView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HomeActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_auth"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/light_blue_600"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/primera_seccion"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/border"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_auth">
+
+        <ImageButton
+            android:id="@+id/btnProfesionIA"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.83"
+            android:background="@drawable/border_round"
+            android:contentDescription="@string/seleccionar_tipo"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtDescripcionProfesionIA"
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="end|bottom"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnFlechaIzquierda"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:contentDescription="@string/flecha_izquierda"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/ic_flecha_izquierda" />
+
+                <ImageButton
+                    android:id="@+id/btnFlechaDerecha"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:contentDescription="@string/flecha_derecha"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/ic_flecha_derecha" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!-- Segunda seccion -->
+    <LinearLayout
+        android:id="@+id/segunda_seccion"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/border"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/primera_seccion">
+
+        <ImageButton
+            android:id="@+id/btnAmigoIA"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.83"
+            android:background="@drawable/border_round"
+            android:contentDescription="@string/segunda_acci_n"
+            android:paddingHorizontal="20dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/avatar_amigo_round" />
+
+        <TextView
+            android:id="@+id/txtDescripcionAmigoIA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/seleccion_ia_tipo_amigo"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Tercera sección -->
+    <LinearLayout
+        android:id="@+id/tercera_seccion"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/border"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/segunda_seccion">
+
+        <ImageButton
+            android:id="@+id/btnAutomataIA"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.83"
+            android:background="@drawable/border_round"
+            android:contentDescription="@string/tercera_acci_n"
+            android:paddingHorizontal="20dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/avatar_automata_round" />
+
+        <TextView
+            android:id="@+id/txtDescripcionAutomataIA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/seleccion_ia_tipo_automatizacion"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Botón Cerrar Sesión -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:minHeight="48dp"
+        android:text="@string/cerrar_sesion"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/light_blue_900"
+        app:cornerRadius="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tercera_seccion" />
+
+    <!-- Botón Ir a Configuración -->
+    <ImageButton
+        android:id="@+id/btnIrAConfigActivity"
+        android:layout_width="56dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="336dp"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/ir_a_formulario"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_formulario_foreground"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar_auth"
+        app:layout_constraintStart_toStartOf="@+id/toolbar_auth" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
